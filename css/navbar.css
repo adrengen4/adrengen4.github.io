@@ -25,8 +25,3 @@ li a:hover:not(.active) {
 .active {
     background-color: #ff0000;
 }
-
-#navbar {
-  margin: 0;
-  padding: 0;
-}
