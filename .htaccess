@@ -14,3 +14,8 @@ RewriteRule ^ %{REQUEST_FILENAME}.html [L]
 
 
 ErrorDocument 404 /404.html
+
+AuthType Basic
+AuthName "Privat"
+AuthUserFile /public_html/privat/.htpasswd
+require valid-user
